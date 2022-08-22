@@ -1,6 +1,6 @@
 import { Grid, } from "@mui/material";
 import React from "react";
-import css from "../assets/ccs.svg"
+import css from "../assets/css.svg"
 
 const Skills = () => {
   return (
