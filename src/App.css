@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #a3bad2
+}
+
+
+.navBar {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    background-color: #436280;
+    height: 5rem;
+    
+}
+
+
+.descripcion {
+    justify-content: center !important;
+    padding: 1% 10%;
+}
+
+.descargar {
+    background-color: #436280 !important;
+    border-radius: 20px !important;
+    margin-left: 15% !important;
+    color: white  !important;
+}
+.descargar:hover,
+.descargar:active {
+    background-color: #112236 !important;
+  }
+
+.tecnology{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: auto;
+    transition: .5 ease-in-out !important;
+}
