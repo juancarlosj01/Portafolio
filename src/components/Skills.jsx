@@ -1,5 +1,6 @@
 import { Grid, } from "@mui/material";
 import React from "react";
+import css from "../assets/ccs.svg"
 
 const Skills = () => {
   return (
@@ -19,7 +20,7 @@ const Skills = () => {
           <h4>HTML</h4>
         </div>
         <div>
-          <img src="/src/assets/css.svg" alt="" width="50" />
+          <img src={css} alt="" width="50" />
           <h4>CSS</h4>
         </div>
         <div>
