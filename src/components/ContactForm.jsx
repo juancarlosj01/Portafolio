@@ -14,7 +14,9 @@ class Contact extends React.Component {
 
   render() {
     return(
-<section className="contact">
+<section >
+  <div className="contact">
+    
       <Grid
       container
       direction="row"
@@ -41,6 +43,7 @@ class Contact extends React.Component {
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
+  </div>
   </section>
     );
   }

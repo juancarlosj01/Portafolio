@@ -77,7 +77,7 @@ class Portafolio extends Component {
 
       return (
 
-        <CarouselItem className="container mx-4"
+        <CarouselItem 
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}

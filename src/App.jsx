@@ -10,7 +10,7 @@ import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
-    <div className="general">
+    <div className="general container">
       <ResponsiveAppBar />
       <BackgroundTop />
       <AcercaDeMi />
