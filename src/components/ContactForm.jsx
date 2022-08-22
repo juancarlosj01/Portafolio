@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
   render() {
     return(
-<section>
+<section className="contact">
       <Grid
       container
       direction="row"
