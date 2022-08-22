@@ -52,7 +52,7 @@ const Skills = () => {
           <h4>Redux</h4>
         </div>
         <div >
-          <img src={git} alt="" width="50" />
+          <img src={git} alt="" width="60" />
           <h4>GitHub</h4>
         </div>
       </div>
