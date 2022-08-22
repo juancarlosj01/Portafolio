@@ -12,20 +12,21 @@ import { Grid } from "@mui/material";
 const items = [
   {
     src: "https://i.ibb.co/ryTkFXn/weather.png",
-    altText: "Slide 1",
+    altText: "Slide 1",    
     caption: "Weather App",
+    
   },
   {
     src: "https://i.ibb.co/HVsypSQ/Screenshot-2022-08-22-at-10-22-20-Ecommerce.png",
-    altText: "Slide 2",
-    caption: "E-commerce",
+    
+    caption: "Tienda E-commerce"
   },
   {
     src: "https://i.ibb.co/JHW64vT/Screenshot-2022-08-22-at-10-29-00-Pokedex.png",
-    altText: "Slide 3",
+    
     caption: "Pokedex",
   },
-];
+]; 
 
 class Portafolio extends Component {
   constructor(props) {
@@ -73,18 +74,22 @@ class Portafolio extends Component {
     const { activeIndex } = this.state;
 
     const slides = items.map((item) => {
+
       return (
-        <CarouselItem
+
+        <CarouselItem 
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
-        >
-          <img src={item.src} alt={item.altText} width="80%" height="500px" />
+          >
+          <img src={item.src} alt={item.altText} width="100%" height="500px" />
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}
-          />
+            />
         </CarouselItem>
+          
+
       );
     });
 

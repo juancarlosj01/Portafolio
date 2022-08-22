@@ -38,3 +38,10 @@ html{
     padding: auto;
     transition: .5 ease-in-out !important;
 }
+
+.carrusel{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 50px !important;
+}

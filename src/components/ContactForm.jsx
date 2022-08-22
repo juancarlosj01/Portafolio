@@ -1,4 +1,5 @@
 import React from "react";
+import { Grid } from "@mui/material";
 
 
 class Contact extends React.Component {
@@ -13,6 +14,16 @@ class Contact extends React.Component {
 
   render() {
     return(
+<section>
+      <Grid
+      container
+      direction="row"
+      justifyContent="center"
+      alignItems="center"
+      >
+      <h2 className="title">Contacto</h2>
+    </Grid>
+
       <div className="App">
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
@@ -30,6 +41,7 @@ class Contact extends React.Component {
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
       </div>
+  </section>
     );
   }
 
