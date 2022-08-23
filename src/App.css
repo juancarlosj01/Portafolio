@@ -9,9 +9,16 @@ html{
    
 }
 
+.MuiMenu-root{
+    color: red !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover{
+    color: red !important;
+}
+
 #root{
-    background-color: #242635;
-    
+    background-color: #242635;    
 }
 
 .MuiAppBar-colorPrimary{
@@ -107,6 +114,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 width: 100%;
+color: white !important;
   }
 
   .title{
