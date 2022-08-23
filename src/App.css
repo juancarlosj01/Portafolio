@@ -1,15 +1,17 @@
 html{
     scroll-behavior: smooth;
-    background-color: #a3bad2
+    background-color: #a3bad2;
+   
 }
 
 *{
     font-family: 'Montserrat', sans-serif;
-    
+    color: white !important;
 }
 
 #root{
-    background-color: #a3bad2;
+    background-color: #242635;
+    ;
 }
 
 .MuiAppBar-colorPrimary{
@@ -98,4 +100,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 width: 100%;
+  }
+
+  .title{
+    color: #34b0be !important;
   }
