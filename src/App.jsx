@@ -6,10 +6,6 @@ import Skills from "./components/Skills";
 import Portafolio from "./components/Portafolio";
 import ContactForm from "./components/ContactForm";
 
-import { Router } from "react-router-dom";
-
-
-
 
 function App() {
 

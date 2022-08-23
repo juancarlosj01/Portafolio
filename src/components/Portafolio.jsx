@@ -14,16 +14,16 @@ const items = [
     src: "https://i.ibb.co/ryTkFXn/weather.png",
     altText: "Slide 1",    
     caption: "Weather App",
-    url: ""
+    url: "https://helpful-snickerdoodle-1501e3.netlify.app/"
   },
   {
     src: "https://i.ibb.co/HVsypSQ/Screenshot-2022-08-22-at-10-22-20-Ecommerce.png",
-    url: "",
+    url: "https://regal-sawine-07f6e2.netlify.app/",
     caption: "Tienda E-commerce"
   },
   {
     src: "https://i.ibb.co/JHW64vT/Screenshot-2022-08-22-at-10-29-00-Pokedex.png",
-    url: "",
+    url: "https://golden-creponne-05da0a.netlify.app/",
     caption: "Pokedex",
   },
 ]; 
