@@ -5,7 +5,7 @@ import programando from "../assets/programando.mp4";
 
 const BackgroundTop = () => {
   return (
-    <section>
+    <section style={{ marginTop: '3in' }} id='init'>
       {/* <video src="https://vimeo.com/741324237"></video> */}
 
       {/* <video width="750" height="500" controls>
@@ -17,7 +17,8 @@ const BackgroundTop = () => {
  */}
 
       <video src={programando} autoPlay loop muted />
-
+<br />
+<br />
       <div>
         <Button className="descargar" href="./src/assets/cv.pdf">
           Descargar

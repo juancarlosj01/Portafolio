@@ -14,16 +14,16 @@ const items = [
     src: "https://i.ibb.co/ryTkFXn/weather.png",
     altText: "Slide 1",    
     caption: "Weather App",
-    
+    url: ""
   },
   {
     src: "https://i.ibb.co/HVsypSQ/Screenshot-2022-08-22-at-10-22-20-Ecommerce.png",
-    
+    url: "",
     caption: "Tienda E-commerce"
   },
   {
     src: "https://i.ibb.co/JHW64vT/Screenshot-2022-08-22-at-10-29-00-Pokedex.png",
-    
+    url: "",
     caption: "Pokedex",
   },
 ]; 
@@ -82,7 +82,10 @@ class Portafolio extends Component {
           onExited={this.onExited}
           key={item.src}
           >
-          <img src={item.src} alt={item.altText} width="100%" height="500px" />
+            <a href={item.url}>
+
+              <img src={item.src} alt={item.altText} width="100%" height="500px" style={{objectFit: "contain"}} />
+            </a>
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}

@@ -6,18 +6,25 @@ import Skills from "./components/Skills";
 import Portafolio from "./components/Portafolio";
 import ContactForm from "./components/ContactForm";
 
+import { Router } from "react-router-dom";
+
+
 
 
 function App() {
+
   return (
     <div className="general container">
+      
+
       <ResponsiveAppBar />
       <BackgroundTop />
       <AcercaDeMi />
       <Skills />
       <Portafolio />
       <ContactForm />
-      
+     
+    
     
     </div>
   );

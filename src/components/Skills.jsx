@@ -22,37 +22,37 @@ const Skills = () => {
         <h2 className="title">Habilidades</h2>
       </Grid>
       
-      <div className="tecnology">
-        <div  >
-          <img src={html} alt="" width="50" />
+      <div className="technologies-container">
+        <div className="technology-box"  >
+          <img src={html} alt="" width="50" className="technology" />
           <h4>HTML</h4>
         </div>
-        <div>
-          <img src={css} alt="" width="50" />
+        <div className="technology-box">
+          <img src={css} alt="" width="50" className="technology" />
           <h4>CSS</h4>
         </div>
-        <div>
-          <img src={js} alt="" width="50" />
+        <div className="technology-box">
+          <img src={js} alt="" width="50" className="technology" />
           <h4>JavaScript</h4>
         </div>
-        <div>
-          <img src={react}alt="" width="50" />
+        <div className="technology-box">
+          <img src={react}alt="" width="50" className="technology" />
           <h4>React.js</h4>
         </div>
-        <div>
-          <img src={bootstrap} alt="" width="50" />
+        <div className="technology-box">
+          <img src={bootstrap} alt="" width="50" className="technology" />
           <h4>Bootstrap</h4>
         </div>
-        <div>
-          <img src={material} alt="" width="50" />
+        <div className="technology-box">
+          <img src={material} alt="" width="50" className="technology" />
           <h4>Material</h4>
         </div>
-        <div>
-          <img src={redux }alt="" width="50" />
+        <div className="technology-box">
+          <img src={redux }alt="" width="50" className="technology" />
           <h4>Redux</h4>
         </div>
-        <div >
-          <img src={git} alt="" width="60" />
+        <div className="technology-box" >
+          <img src={git} alt="" width="60" className="technology"/>
           <h4>GitHub</h4>
         </div>
       </div>

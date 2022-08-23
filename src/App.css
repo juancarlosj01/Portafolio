@@ -3,6 +3,18 @@ html{
     background-color: #a3bad2
 }
 
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#root{
+    background-color: #a3bad2;
+}
+
+.MuiAppBar-colorPrimary{
+    background-color: #436280 !important;
+}
 
 .navBar {
     display: flex;
@@ -32,13 +44,27 @@ html{
     background-color: #112236 !important;
   }
 
-.tecnology{
+.technologies-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding: auto;
-    transition: .5 ease-in-out !important;
+}
+
+.technology{
+    gap: 50px;
+    transition: .5 ease-in !important;
+}
+
+.technology:hover{
+    transform: scale(1.1)
+}
+
+.technology-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
 .carrusel{
@@ -64,6 +90,7 @@ video {
   width: 50%;
   height: 50%;
   justify-content: center;
+  margin: 0 auto;
   }
 
   body{

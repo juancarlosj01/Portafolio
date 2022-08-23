@@ -3,7 +3,7 @@ import React from "react";
 
 const AcercaDeMi = () => {
   return (
-    <section style={{ marginTop: '3in' }}>
+    <section id="about-me">
 
 <Grid
   container

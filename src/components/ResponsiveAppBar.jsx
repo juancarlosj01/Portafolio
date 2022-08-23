@@ -6,6 +6,7 @@ import { AppBar, IconButton, Container, Menu, Box , Toolbar, Typography, Button,
 
 
 const pages = ['Inicio', 'Perfil', 'Habilidades', 'Portafolio', 'Contacto'];
+const pagesIds = ['#init', '#about-me', '', '', '']
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -55,22 +56,24 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }} 
             >
-              {pages.map((page) => (
+              {pages.map((page, i) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu} >
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">
+                    <a href={pagesIds[i]}>{page}</a>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           
           <Box className='navBar' sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {pages.map((page, i) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'inherit', display: 'block' }}
               >
-                {page}
+                <a href={pagesIds[i]}>{page}</a>
               </Button>
             ))}
           </Box>
