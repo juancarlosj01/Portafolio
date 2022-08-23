@@ -24,7 +24,7 @@ color: #34b0be !important;
 .MuiButton-text{
     min-width: 100px !important;
     font-family: 'Montserrat', sans-serif !important;
-    color: white!important;
+    color: white !important;
 }
 
 .MuiMenu-list{
@@ -124,6 +124,7 @@ flex-direction: column;
 justify-content: center;
 width: 100%;
 color: white !important;
+font-family: 'Montserrat', sans-serif !important;
   }
 
   .title{
