@@ -6,12 +6,12 @@ html{
 
 *{
     font-family: 'Montserrat', sans-serif;
-    color: white !important;
+   
 }
 
 #root{
     background-color: #242635;
-    ;
+    
 }
 
 .MuiAppBar-colorPrimary{
@@ -24,13 +24,20 @@ html{
     flex-direction: row;
     background-color: #436280;
     height: 5rem;
-    
+      
 }
+
 
 
 .descripcion {
     justify-content: center !important;
     padding: 1% 10%;
+}
+
+
+.MuiButton-text{
+    min-width: 50px !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .descargar {
@@ -39,7 +46,7 @@ html{
     margin-left: 15% !important;
     color: white  !important;
     margin-top: 10%;
-    
+ 
 }
 .descargar:hover,
 .descargar:active {

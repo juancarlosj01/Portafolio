@@ -20,8 +20,8 @@ const BackgroundTop = () => {
 <br />
 <br />
       <div>
-        <Button className="descargar" href="./src/assets/cv.pdf">
-          Descargar
+        <Button className="descargar MuiButton-text" href="./src/assets/cv.pdf">
+          Descargar CV
         </Button>
       </div>
     </section>
