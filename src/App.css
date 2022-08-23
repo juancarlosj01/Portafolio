@@ -9,12 +9,20 @@ html{
    
 }
 
-.MuiMenu-root{
-    color: red !important;
+a{
+    text-decoration: none !important;
+}
+a:hover{
+color: #34b0be !important;
 }
 
-.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover{
-    color: red !important;
+.keychainify-checked{
+    color: white;
+}
+
+
+.MuiMenu-list{
+    background-color:  #436280 !important;
 }
 
 #root{
