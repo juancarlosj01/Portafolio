@@ -97,7 +97,7 @@ class Portafolio extends Component {
     });
 
     return (
-      <section>
+      <section id="portfolio">
         <Grid
           container
           direction="row"

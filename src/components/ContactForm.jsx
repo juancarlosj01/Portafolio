@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
   render() {
     return(
-<section >
+<section id="contact-me">
   <div className="contact">
     
       <Grid

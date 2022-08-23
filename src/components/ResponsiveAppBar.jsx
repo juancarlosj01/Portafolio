@@ -6,7 +6,7 @@ import { AppBar, IconButton, Container, Menu, Box , Toolbar, Typography, Button,
 
 
 const pages = ['Inicio', 'Perfil', 'Habilidades', 'Portafolio', 'Contacto'];
-const pagesIds = ['#init', '#about-me', '', '', '']
+const pagesIds = ['#init', '#about-me', '#skills', '#portfolio', '#contact-me']
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
