@@ -21,6 +21,12 @@ color: #34b0be !important;
 }
 
 
+.MuiButton-text{
+    min-width: 100px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white!important;
+}
+
 .MuiMenu-list{
     background-color:  #436280 !important;
 }
@@ -49,11 +55,6 @@ color: #34b0be !important;
     padding: 1% 10%;
 }
 
-
-.MuiButton-text{
-    min-width: 50px !important;
-    font-family: 'Montserrat', sans-serif !important;
-}
 
 .descargar {
     background-color: #436280 !important;

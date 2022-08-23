@@ -11,7 +11,7 @@ const AcercaDeMi = () => {
   justifyContent="center"
   alignItems="center"
 >
-        <h1 className="title">Perfil</h1>
+        <h2 className="title">Perfil</h2>
     
     <div className='descripcion'>
         <h2>
