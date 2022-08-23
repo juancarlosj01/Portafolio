@@ -21,11 +21,25 @@ color: #34b0be !important;
 }
 
 
-.MuiButton-text{
+.MuiMenu-root {
     min-width: 100px !important;
     font-family: 'Montserrat', sans-serif !important;
     color: white !important;
 }
+
+.MuiMenuItem-root{
+    min-width: 100px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+}
+
+.MuiButtonBase-root {
+    min-width: 100px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+}
+
+
 
 .MuiMenu-list{
     background-color:  #436280 !important;
