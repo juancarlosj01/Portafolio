@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
 import programando from "../assets/programando.mp4";
+import cv from "../assets/cv.pdf"
 
 
 const BackgroundTop = () => {
@@ -20,7 +21,7 @@ const BackgroundTop = () => {
 <br />
 <br />
       <div>
-        <Button className="descargar MuiButton-text" href="./src/assets/cv.pdf">
+        <Button className="descargar MuiButton-text" href={cv}>
           Descargar CV
         </Button>
       </div>
