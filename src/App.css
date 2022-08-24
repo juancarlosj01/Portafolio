@@ -169,6 +169,18 @@ margin-left: 5%;
 object-fit: cover;
 }
 
+@media screen and (max-width: 450px){
+    .profile{
+        width: 20%;
+        z-index: 100;
+        position: relative;
+        margin-top: -65%;
+        background-color: #43628070;
+        border-radius: 50%;
+        margin-left: 5%;
+        object-fit: cover;
+        }
+}
 @media screen and (max-width: 600px){
     .profile{
         width: 20%;
@@ -182,18 +194,7 @@ object-fit: cover;
         }
 }
 
-@media screen and (max-width: 900px){
-    .profile{
-        width: 20%;
-        z-index: 100;
-        position: relative;
-        margin-top: -50%;
-        background-color: #43628070;
-        border-radius: 50%;
-        margin-left: 5%;
-        object-fit: cover;
-        }
-}
+
 
 @media screen and (max-width: 1200px){
     .profile{
@@ -214,19 +215,6 @@ object-fit: cover;
         z-index: 100;
         position: relative;
         margin-top: -20%;
-        background-color: #43628070;
-        border-radius: 50%;
-        margin-left: 5%;
-        object-fit: cover;
-        }
-}
-
-@media screen and (max-width: 450px){
-    .profile{
-        width: 20%;
-        z-index: 100;
-        position: relative;
-        margin-top: -65%;
         background-color: #43628070;
         border-radius: 50%;
         margin-left: 5%;
