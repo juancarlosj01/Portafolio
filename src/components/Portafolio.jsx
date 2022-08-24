@@ -97,7 +97,7 @@ class Portafolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" style={{marginTop: "2in"}}>
         <Grid
           container
           direction="row"

@@ -12,7 +12,7 @@ import redux from "../assets/redux.svg"
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" style={{marginTop: "2in"}}>
       <Grid
         container
         direction="row"

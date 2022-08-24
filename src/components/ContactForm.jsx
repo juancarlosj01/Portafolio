@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
   render() {
     return(
-<section id="contact-me">
+<section id="contact-me" style={{marginTop: "2in"}}>
   <div className="contact">
     
       <Grid
@@ -28,19 +28,19 @@ class Contact extends React.Component {
 
       <div className="App" id="contact-form">
         <form  action="https://formsubmit.co/cc2e3d4b9a3e6aa7c6dd83eaac6bbe6a"   method="POST">
-          <div className="form-group">
-           
+          <div className="form-group" style={{textAlign: "center"}}>
+           <p style={{marginTop: "10px"}} >Name</p>
             <input type="text" className="form-control" name="name" />
           </div>
-          <div className="form-group">
-           
+          <div className="form-group"  style={{textAlign: "center"}}>
+          <p style={{marginTop: "10px"}}>Email address</p>
             <input type="email" className="form-control" name="email" />
           </div>
-          <div className="form-group">
-           
+          <div className="form-group"  style={{textAlign: "center"}}>
+          <p style={{marginTop: "10px"}}>Message</p>
             <textarea className="form-control" rows="5" name="message" />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary" style={{marginTop: "15px"}}>Submit</button>
         </form>
       </div>
   </div>
