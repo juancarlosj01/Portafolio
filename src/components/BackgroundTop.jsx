@@ -21,7 +21,7 @@ const BackgroundTop = () => {
 <br />
 <br />
       <div>
-        <Button className="descargar" href={cv} target="_blank">
+        <Button className="descargar" href={cv}download >
           Descargar CV
         </Button>
       </div>

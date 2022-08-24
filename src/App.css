@@ -1,9 +1,14 @@
 html{
     scroll-behavior: smooth;
     background-color: #a3bad2;
-   
+
+    
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+  
 *{
     font-family: 'Montserrat', sans-serif;
    
