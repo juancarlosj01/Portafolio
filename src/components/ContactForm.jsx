@@ -27,7 +27,7 @@ class Contact extends React.Component {
     </Grid>
 
       <div className="App">
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST" action="https://formsubmit.co/juancarlosj01@hotmail.com">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
