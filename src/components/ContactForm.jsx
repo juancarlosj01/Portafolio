@@ -27,7 +27,7 @@ class Contact extends React.Component {
     </Grid>
 
       <div className="App" id="contact-form">
-        <form  action="https://formsubmit.co/juancarlosj01@hotmail.com"   method="POST">
+        <form  action="https://formsubmit.co/cc2e3d4b9a3e6aa7c6dd83eaac6bbe6a"   method="POST">
           <div className="form-group">
            
             <input type="text" className="form-control" name="name" />
