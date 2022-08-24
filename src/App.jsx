@@ -5,6 +5,7 @@ import BackgroundTop from "./components/BackgroundTop";
 import Skills from "./components/Skills";
 import Portafolio from "./components/Portafolio";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -19,9 +20,8 @@ function App() {
       <Skills />
       <Portafolio />
       <ContactForm />
-     
-    
-    
+      <Footer />
+        
     </div>
   );
 }

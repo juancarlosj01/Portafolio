@@ -19,10 +19,10 @@ const Skills = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <h2 className="title">Habilidades</h2>
+        <h2 className="title" >Habilidades</h2>
       </Grid>
       
-      <div className="technologies-container">
+      <div className="technologies-container" style={{marginTop: "50px"}}>
         <div className="technology-box"  >
           <img src={html} alt="" width="50" className="technology" />
           <h4>HTML</h4>
