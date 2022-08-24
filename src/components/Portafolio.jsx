@@ -97,14 +97,14 @@ class Portafolio extends Component {
     });
 
     return (
-      <section id="portfolio" style={{marginTop: "1in", }}>
+      <section id="portfolio">
         <Grid
           container
           direction="row"
           justifyContent="center"
           alignItems="center"
         >
-          <h2 className="title" style={{marginBottom: "1in", }}>Portafolio</h2>
+          <h2 className="title" style={{marginTop: "1in",marginBottom: ".5in" }} >Portafolio</h2>
         </Grid>
 
         <div>

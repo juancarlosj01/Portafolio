@@ -3,7 +3,9 @@ import React from "react";
 
 const AcercaDeMi = () => {
   return (
-    <section id="about-me" style={{marginTop: "1in"}}>
+
+    <section id="about-me" >
+      
 
 <Grid
   container
@@ -11,7 +13,7 @@ const AcercaDeMi = () => {
   justifyContent="center"
   alignItems="center"
 >
-        <h2 className="title">Perfil</h2>
+        <h2 className="title"  style={{marginTop: "1in"}}>Perfil</h2>
     
     <div className='descripcion'>
         <h2>

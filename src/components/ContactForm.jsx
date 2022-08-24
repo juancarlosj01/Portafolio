@@ -14,7 +14,7 @@ class Contact extends React.Component {
 
   render() {
     return(
-<section id="contact-me" style={{marginTop: "2in"}}>
+<section id="contact-me">
   <div className="contact">
     
       <Grid
@@ -23,7 +23,7 @@ class Contact extends React.Component {
       justifyContent="center"
       alignItems="center"
       >
-      <h2 className="title">Contacto</h2>
+      <h2 className="title"  style={{marginTop: "1in"}}>Contacto</h2>
     </Grid>
 
       <div className="App" id="contact-form">
