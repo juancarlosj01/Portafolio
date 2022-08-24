@@ -27,18 +27,18 @@ class Contact extends React.Component {
     </Grid>
 
       <div className="App">
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST" action="https://formsubmit.co/juancarlosj01@hotmail.com">
+        <form id="contact-form"  method="POST" action="https://formsubmit.co/juancarlosj01@hotmail.com">
           <div className="form-group">
             <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+            <input type="text" className="form-control" name="name" />
           </div>
           <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email address</label>
-            <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+            <input type="email" className="form-control" name="email" />
           </div>
           <div className="form-group">
             <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+            <textarea className="form-control" rows="5" name="message" />
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
