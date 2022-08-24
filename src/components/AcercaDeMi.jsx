@@ -3,7 +3,7 @@ import React from "react";
 
 const AcercaDeMi = () => {
   return (
-    <section id="about-me" style={{marginTop: "2in"}}>
+    <section id="about-me" style={{marginTop: "1in"}}>
 
 <Grid
   container
@@ -15,7 +15,7 @@ const AcercaDeMi = () => {
     
     <div className='descripcion'>
         <h2>
-          Desarrollador web con 2 meses de experiencia, maquetado web,
+          Desarrollador web con 6 meses de experiencia, maquetado web,
           proactivo, trabajo en equipo, Autorregulación del trabajo, Orientación
           a resultados, Comunicación efectiva
         </h2>

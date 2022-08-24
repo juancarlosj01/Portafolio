@@ -104,7 +104,7 @@ class Portafolio extends Component {
           justifyContent="center"
           alignItems="center"
         >
-          <h2 className="title" style={{marginBottom: "2in", }}>Portafolio</h2>
+          <h2 className="title" style={{marginBottom: "1in", }}>Portafolio</h2>
         </Grid>
 
         <div>

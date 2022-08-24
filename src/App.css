@@ -1,3 +1,11 @@
+/* Paleta de colores №2569 paletadecolores.com	
+#112236
+#436280
+#a3bad2
+#dbe4ed
+#ffffff
+ */
+
 html{
     scroll-behavior: smooth;
     background-color: #a3bad2;
@@ -80,7 +88,7 @@ color: #34b0be !important;
 .descargar {
     background-color: #436280 !important;
     border-radius: 20px !important;
-    margin-left: 15% !important;
+    margin-left: 9% !important;
     color: white  !important;
     margin-top: 10%;
  
@@ -154,7 +162,7 @@ font-family: 'Montserrat', sans-serif !important;
 
   .footer{
     text-align: center;
-    margin-top: 1.2in;
+    margin-top: .2in;
 
   }
 
@@ -168,6 +176,40 @@ border-radius: 50%;
 margin-left: 5%;
 object-fit: cover;
 }
+
+.btn-icon {
+    align-items: baseline;
+    width: 35px;    
+}
+
+.btn-box{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-items: flex-end;
+   align-content: flex-end;
+   margin-top: .5in;
+}
+
+.ws{
+    width: 33px;
+    height: 33px;
+    position: fixed;
+    margin-top: 30vh;
+}
+
+.name{
+    font-family: 'Montserrat', sans-serif !important;
+    margin-left: 8% !important;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 450px){
     .profile{
