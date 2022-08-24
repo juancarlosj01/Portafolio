@@ -157,3 +157,14 @@ font-family: 'Montserrat', sans-serif !important;
     margin-top: 1.2in;
 
   }
+
+  .profile{
+width: 20%;
+z-index: 100;
+position: relative;
+margin-top: -20%;
+background-color: #43628070;
+border-radius: 50%;
+margin-left: 5%;
+object-fit: cover;
+}
