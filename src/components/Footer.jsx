@@ -6,7 +6,7 @@ import github from "../assets/github.png";
 const Footer = () => {
   return (
     <section>
-      <div className="btn-box"  style={{marginTop: ".5in"}}>
+      <div className="btn-box" style={{ marginTop: ".5in" }}>
         <a
           href="https://www.linkedin.com/in/juan-pineda-058593100/"
           target="_blank"
@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer">
-        <h6  style={{marginTop: ".5in"}}>
+        <h6 style={{ marginTop: ".5in" }}>
           2022 © Todos los derechos reservados <br />
           Made by Juan Carlos Pineda
         </h6>

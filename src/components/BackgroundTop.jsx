@@ -30,10 +30,16 @@ const BackgroundTop = () => {
           Descargar CV
         </Button>
       </div>
-      <div >
+      <div>
         <a href="https://api.whatsapp.com/send?phone=584126317575&text=Estoy+interesado+en+contratarlo">
           {" "}
-          <img src={ws} alt="" width="50" height="50" className="technology ws" />
+          <img
+            src={ws}
+            alt=""
+            width="50"
+            height="50"
+            className="technology ws"
+          />
         </a>
       </div>
     </section>
