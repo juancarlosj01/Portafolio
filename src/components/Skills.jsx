@@ -1,29 +1,30 @@
-import { Grid, } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
-import css from "../assets/css.svg"
-import git from "../assets/git.svg"
-import bootstrap from "../assets/bootstrap.svg"
-import html from "../assets/html.svg"
-import js from "../assets/js.svg"
-import material from "../assets/material.svg"
-import react from "../assets/react.svg"
-import redux from "../assets/redux.svg"
-
+import css from "../assets/css.svg";
+import git from "../assets/github.png";
+import bootstrap from "../assets/bootstrap.svg";
+import html from "../assets/html.svg";
+import js from "../assets/js.svg";
+import material from "../assets/material.svg";
+import react from "../assets/react.svg";
+import redux from "../assets/redux.svg";
 
 const Skills = () => {
   return (
-    <section id="skills" >
+    <section id="skills">
       <Grid
         container
         direction="row"
         justifyContent="center"
         alignItems="center"
       >
-        <h2 className="title"style={{marginTop: "1in"}} >Habilidades</h2>
+        <h2 className="title" style={{ marginTop: "1in" }}>
+          Habilidades
+        </h2>
       </Grid>
-      
-      <div className="technologies-container" style={{marginTop: "50px"}}>
-        <div className="technology-box"  >
+
+      <div className="technologies-container" style={{ marginTop: "50px" }}>
+        <div className="technology-box">
           <img src={html} alt="" width="50" className="technology" />
           <h4>HTML</h4>
         </div>
@@ -36,7 +37,7 @@ const Skills = () => {
           <h4>JavaScript</h4>
         </div>
         <div className="technology-box">
-          <img src={react}alt="" width="50" className="technology" />
+          <img src={react} alt="" width="50" className="technology" />
           <h4>React.js</h4>
         </div>
         <div className="technology-box">
@@ -48,11 +49,11 @@ const Skills = () => {
           <h4>Material</h4>
         </div>
         <div className="technology-box">
-          <img src={redux }alt="" width="50" className="technology" />
+          <img src={redux} alt="" width="50" className="technology" />
           <h4>Redux</h4>
         </div>
-        <div className="technology-box" >
-          <img src={git} alt="" width="60" className="technology"/>
+        <div className="technology-box">
+          <img src={git} alt="" width="60" className="technology" />
           <h4>GitHub</h4>
         </div>
       </div>
