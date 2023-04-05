@@ -8,6 +8,7 @@ import js from "../assets/js.svg";
 import material from "../assets/material.svg";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.svg";
+import unity from "../assets/unity.svg";
 
 const Skills = () => {
   return (
@@ -39,6 +40,10 @@ const Skills = () => {
         <div className="technology-box">
           <img src={react} alt="" width="50" className="technology" />
           <h4>React.js</h4>
+        </div>
+        <div className="technology-box">
+          <img src={unity} alt="" width="50" className="technology" />
+          <h4>Unity</h4>
         </div>
         <div className="technology-box">
           <img src={bootstrap} alt="" width="50" className="technology" />

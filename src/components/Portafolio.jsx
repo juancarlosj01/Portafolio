@@ -10,23 +10,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Grid } from "@mui/material";
 
 const items = [
-  {
+  /* {
     src: "https://i.ibb.co/ryTkFXn/weather.png",
     altText: "Slide 1",    
     caption: "Weather App",
     url: "https://helpful-snickerdoodle-1501e3.netlify.app/"
   },
+  */
   {
     src: "https://i.ibb.co/HVsypSQ/Screenshot-2022-08-22-at-10-22-20-Ecommerce.png",
     url: "https://regal-sawine-07f6e2.netlify.app/",
-    caption: "Tienda E-commerce"
+    caption: "Tienda E-commerce",
   },
   {
     src: "https://i.ibb.co/JHW64vT/Screenshot-2022-08-22-at-10-29-00-Pokedex.png",
     url: "https://golden-creponne-05da0a.netlify.app/",
     caption: "Pokedex",
   },
-]; 
+];
 
 class Portafolio extends Component {
   constructor(props) {
@@ -74,25 +75,26 @@ class Portafolio extends Component {
     const { activeIndex } = this.state;
 
     const slides = items.map((item) => {
-
       return (
-
-        <CarouselItem 
+        <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
-          >
-            <a href={item.url}>
-
-              <img src={item.src} alt={item.altText} width="100%" height="500px" style={{objectFit: "contain"}} />
-            </a>
+        >
+          <a href={item.url}>
+            <img
+              src={item.src}
+              alt={item.altText}
+              width="100%"
+              height="500px"
+              style={{ objectFit: "contain" }}
+            />
+          </a>
           <CarouselCaption
             captionText={item.caption}
             captionHeader={item.caption}
-            />
+          />
         </CarouselItem>
-          
-
       );
     });
 
@@ -104,7 +106,12 @@ class Portafolio extends Component {
           justifyContent="center"
           alignItems="center"
         >
-          <h2 className="title" style={{marginTop: "1in",marginBottom: ".5in" }} >Portafolio</h2>
+          <h2
+            className="title"
+            style={{ marginTop: "1in", marginBottom: ".5in" }}
+          >
+            Portafolio
+          </h2>
         </Grid>
 
         <div>
