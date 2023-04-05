@@ -9,6 +9,7 @@ import material from "../assets/material.svg";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.svg";
 import unity from "../assets/unity.svg";
+import csharp from "../assets/csharp.svg";
 
 const Skills = () => {
   return (
@@ -44,6 +45,10 @@ const Skills = () => {
         <div className="technology-box">
           <img src={unity} alt="" width="50" className="technology" />
           <h4>Unity</h4>
+        </div>
+        <div className="technology-box">
+          <img src={csharp} alt="" width="50" className="technology" />
+          <h4>C#</h4>
         </div>
         <div className="technology-box">
           <img src={bootstrap} alt="" width="50" className="technology" />
