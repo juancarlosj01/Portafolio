@@ -126,7 +126,15 @@ color: #34b0be !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     gap: 50px !important;
+    
 }
+
+/* .carousel-item{
+    
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-top: 200px;
+} */
 
 video {
     width: 100%;
@@ -204,7 +212,22 @@ object-fit: cover;
     margin-left: 8% !important;
 }
 
+.cajon{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 2em;
+    
+    gap: 2rem;
+}
 
+.cajon1{
+    width: 40%;
+}
+.cajon2{
+    width: 40%;    
+}
 
 
 
